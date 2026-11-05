@@ -1,0 +1,10 @@
+--- Statistical Summary of Charger Measurements ---
+Total Valid Images Analyzed: 76
+
+Target Width:
+  Mean: 76.80 mm
+  Standard Deviation: ±78.74 mm
+
+Target Height:
+  Mean: 48.04 mm
+  Standard Deviation: ±57.93 mm
