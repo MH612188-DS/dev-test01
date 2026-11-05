@@ -3,8 +3,8 @@
 ## Context & Setup
 * **Environment:** The object and reference will be placed flat on a small red table to ensure they lie in the exact same plane.
 * **Hardware Strategy:** Local machine is a 4-core 7th Gen Intel Core i7 CPU with no local GPU. To accommodate this, model training will be offloaded to a cloud notebook (e.g., Google Colab/Kaggle), and weights will be exported for local CPU inference. 
-* **Target Object:**  - chosen for distinct edges against the red table and ease of manual caliper measurement.
-* **Reference Object:**  - measured manually with a caliper.
+* **Target Object:**  A mobile phone charging adapter - chosen for distinct edges against the red table and ease of manual measurement.
+* **Reference Object:**  A plan white card - measured manually with a caliper.
 
 ## Order of Operations and Time Allocation (8 Hours Total)
 
@@ -26,7 +26,6 @@
 * Define a 70/20/10 train/val/test split, create a file list of the test split, and commit this list before training begins.
 
 **4. Model Training Setup (1.0 hours of active work)**
-* *Note: Clock time spent waiting for the model to train does not count towards the 8 hours.*
 * Write training code for a lightweight segmentation model (e.g., MobileNetV3-UNet) that can run efficiently on a CPU. Ultralytics YOLO and Roboflow models will not be used.
 * Evaluate the trained model strictly on the test split, recording mask IoU, mAP@0.5, mAP@0.5:0.95, precision, and recall.
 
