@@ -5,9 +5,9 @@
 - [ ] Git history shows progressive steps (calibration -> data -> training -> measurement), with no single monolithic commit.
 
 ## Phase 2: Camera Calibration
-- [ ] 20 or more calibration images captured with locked focus/zoom.
-- [ ] Reprojection error successfully reported. (Error value & image count: )
-- [ ] Camera matrix and distortion coefficients saved to a file that the inference script loads. (File path: )
+- [x] 20 or more calibration images captured with locked focus/zoom.
+- [x] Reprojection error successfully reported. (Error value & image count: 1.0040 pixels)
+- [x] Camera matrix and distortion coefficients saved to a file that the inference script loads. (File path: dev-test01\calibration\camera_params.npz )
 
 ## Phase 3: Dataset & Reproducibility
 - [ ] 70 or more original images captured, undistorted, and manually labelled.
