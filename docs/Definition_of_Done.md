@@ -5,7 +5,7 @@
 - [ ] Git history shows progressive steps (calibration -> data -> training -> measurement), with no single monolithic commit.
 
 ## Phase 2: Camera Calibration
-- [ ] 20 or more calibration images captured with locked focus/zoom.
+- [x] 20 or more calibration images captured with locked focus/zoom.
 - [ ] Reprojection error successfully reported. (Error value & image count: )
 - [ ] Camera matrix and distortion coefficients saved to a file that the inference script loads. (File path: )
 
