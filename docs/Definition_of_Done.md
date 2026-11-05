@@ -1,7 +1,5 @@
 # Definition of Done
 
-*Instructions: Tick these boxes with an `x` (e.g., `[x]`) and append the corresponding commit link, file path, or raw output value once the criteria are met.*
-
 ## Phase 1: Setup & Git Compliance
 - [x] Plan and Definition of Done committed to `dev-test01` branch before any code was written. (Commit link: )
 - [ ] Git history shows progressive steps (calibration -> data -> training -> measurement), with no single monolithic commit.
