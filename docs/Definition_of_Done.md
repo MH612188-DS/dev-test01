@@ -10,7 +10,7 @@
 - [x] Camera matrix and distortion coefficients saved to a file that the inference script loads. (File path: dev-test01\calibration\camera_params.npz )
 
 ## Phase 3: Dataset & Reproducibility
-- [ ] 70 or more original images captured, undistorted, and manually labelled.
+- [x] 70 or more original images captured, undistorted, and manually labelled.
 - [ ] Test split file list (70/20/10) committed before any model training began. (Commit link: )
 - [ ] Random seeds, library versions, and training configurations pinned for reproducibility.
 
